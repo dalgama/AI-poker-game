@@ -1,0 +1,1145 @@
+Generating rules for hand classification:  1
+Generation  0 : 
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 2 and cm.numZeros(suits) == 4 and True
+
+{'ClassificationOfTargetHand': 0.003868289461269931, 'ClassificationOfOtherHands': 0.9636388869613489}
+True and not cm.separationOfZeros(ranks) and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0.4628738560241532, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 1 and not cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.acePresent(ranks) and cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 1 and cm.numZeros(suits) == 4 and True
+
+
+
+Defining next generation
+Done defining next generation
+Generation  1 : 
+
+{'ClassificationOfTargetHand': 0.4628738560241532, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 1 and not cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0.003679592414378715, 'ClassificationOfOtherHands': 0.9691208104919853}
+True and not cm.separationOfZeros(ranks) and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0.003679592414378715, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 1 and not cm.separationOfZeros(ranks) and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.acePresent(ranks) and not cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.acePresent(ranks) and cm.numZeros(suits) == 4 and cm.elemsAscDesc(ranks, isRank=True)
+
+
+
+Defining next generation
+Done defining next generation
+Generation  2 : 
+
+{'ClassificationOfTargetHand': 0.4628738560241532, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 1 and not cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0.003679592414378715, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 1 and not cm.separationOfZeros(ranks) and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0.003679592414378715, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 1 and not cm.separationOfZeros(ranks) and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 1.0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 1 and not cm.separationOfZeros(ranks) and True
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.acePresent(ranks) and True and cm.elemsAscDesc(ranks, isRank=True)
+
+
+
+Defining next generation
+Done defining next generation
+Generation  3 : 
+
+{'ClassificationOfTargetHand': 1.0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 1 and not cm.separationOfZeros(ranks) and True
+
+{'ClassificationOfTargetHand': 0.4628738560241532, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 1 and not cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0.4628738560241532, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 1 and not cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 1.0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 1 and True and True
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 4 and cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+
+
+Defining next generation
+Done defining next generation
+Generation  4 : 
+
+{'ClassificationOfTargetHand': 1.0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 1 and not cm.separationOfZeros(ranks) and True
+
+{'ClassificationOfTargetHand': 1.0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 1 and True and True
+
+{'ClassificationOfTargetHand': 1.0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 1 and True and True
+
+{'ClassificationOfTargetHand': 1.0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 1 and not cm.separationOfZeros(ranks) and True
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.9337311775726875}
+cm.numZeros(ranks) == 2 and True and not cm.separationOfZeros(suits)
+
+
+
+The Final Solution: 
+
+{'ClassificationOfTargetHand': 1.0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 1 and not cm.separationOfZeros(ranks) and True
+
+{'ClassificationOfTargetHand': 1.0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 1 and True and True
+
+{'ClassificationOfTargetHand': 1.0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 1 and True and True
+
+{'ClassificationOfTargetHand': 1.0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 1 and not cm.separationOfZeros(ranks) and True
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.9337311775726875}
+cm.numZeros(ranks) == 2 and True and not cm.separationOfZeros(suits)
+
+
+
+done
+End of rule generation for hand classification:  1
+
+
+Generating rules for hand classification:  2
+Generation  0 : 
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.5328936313224668}
+True and not cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.5547386993782557}
+cm.numZeros(ranks) == 1 and True and True
+
+{'ClassificationOfTargetHand': 0.5398009950248757, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 2 and cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0.5398009950248757, 'ClassificationOfOtherHands': 0.999033775835994}
+True and cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 1 and cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+
+
+Defining next generation
+Done defining next generation
+Generation  1 : 
+
+{'ClassificationOfTargetHand': 0.5398009950248757, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 2 and cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0.5398009950248757, 'ClassificationOfOtherHands': 0.999033775835994}
+True and cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0.5398009950248757, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 2 and cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.acePresent(ranks) and cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.9872290371366157}
+cm.numZeros(ranks) == 2 and not cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+
+
+Defining next generation
+Done defining next generation
+Generation  2 : 
+
+{'ClassificationOfTargetHand': 0.5398009950248757, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 2 and cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0.5398009950248757, 'ClassificationOfOtherHands': 0.999033775835994}
+True and cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0.5398009950248757, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 2 and cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.999033775835994}
+cm.numZeros(ranks) == 3 and cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 4 and cm.numZeros(suits) == 4 and cm.separationOfZeros(suits)
+
+
+
+Defining next generation
+Done defining next generation
+Generation  3 : 
+
+{'ClassificationOfTargetHand': 0.5398009950248757, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 2 and cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0.5398009950248757, 'ClassificationOfOtherHands': 0.999033775835994}
+True and cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0.5398009950248757, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 2 and cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0.5398009950248757, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 2 and cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0.5398009950248757, 'ClassificationOfOtherHands': 0.4676524953789279}
+True and True and not cm.separationOfZeros(suits)
+
+
+
+Defining next generation
+Done defining next generation
+Generation  4 : 
+
+{'ClassificationOfTargetHand': 0.5398009950248757, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 2 and cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0.5398009950248757, 'ClassificationOfOtherHands': 0.999033775835994}
+True and cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0.5398009950248757, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 2 and cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 2 and cm.separationOfZeros(ranks) and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.7939001848428835}
+cm.numZeros(ranks) == 1 and True and cm.separationOfZeros(suits)
+
+
+
+The Final Solution: 
+
+{'ClassificationOfTargetHand': 0.5398009950248757, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 2 and cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0.5398009950248757, 'ClassificationOfOtherHands': 0.999033775835994}
+True and cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0.5398009950248757, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 2 and cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 2 and cm.separationOfZeros(ranks) and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.7939001848428835}
+cm.numZeros(ranks) == 1 and True and cm.separationOfZeros(suits)
+
+
+
+done
+End of rule generation for hand classification:  2
+
+
+Generating rules for hand classification:  3
+Generation  0 : 
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.acePresent(ranks) and cm.separationOfZeros(ranks) and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.acePresent(ranks) and cm.numZeros(suits) == 4 and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 3 and cm.numZeros(suits) == 4 and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 1.0, 'ClassificationOfOtherHands': 0.950769481977385}
+cm.numZeros(ranks) == 2 and True and True
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.9973874351961465}
+True and cm.numZeros(suits) == 4 and not cm.separationOfZeros(suits)
+
+
+
+Defining next generation
+Done defining next generation
+Generation  1 : 
+
+{'ClassificationOfTargetHand': 1.0, 'ClassificationOfOtherHands': 0.950769481977385}
+cm.numZeros(ranks) == 2 and True and True
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.acePresent(ranks) and cm.separationOfZeros(ranks) and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 2 and cm.separationOfZeros(ranks) and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.acePresent(ranks) and True and True
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 4 and cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+
+
+Defining next generation
+Done defining next generation
+Generation  2 : 
+
+{'ClassificationOfTargetHand': 1.0, 'ClassificationOfOtherHands': 0.950769481977385}
+cm.numZeros(ranks) == 2 and True and True
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.acePresent(ranks) and cm.separationOfZeros(ranks) and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 2 and cm.separationOfZeros(ranks) and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0.4074074074074074, 'ClassificationOfOtherHands': 0.9773441645915827}
+cm.numZeros(ranks) == 2 and True and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 1.0, 'ClassificationOfOtherHands': 0.950769481977385}
+cm.numZeros(ranks) == 2 and True and True
+
+
+
+Defining next generation
+Done defining next generation
+Generation  3 : 
+
+{'ClassificationOfTargetHand': 1.0, 'ClassificationOfOtherHands': 0.950769481977385}
+cm.numZeros(ranks) == 2 and True and True
+
+{'ClassificationOfTargetHand': 0.4074074074074074, 'ClassificationOfOtherHands': 0.9773441645915827}
+cm.numZeros(ranks) == 2 and True and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0.4074074074074074, 'ClassificationOfOtherHands': 0.9773441645915827}
+cm.numZeros(ranks) == 2 and True and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 2 and True and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.acePresent(ranks) and True and True
+
+
+
+Defining next generation
+Done defining next generation
+Generation  4 : 
+
+{'ClassificationOfTargetHand': 1.0, 'ClassificationOfOtherHands': 0.950769481977385}
+cm.numZeros(ranks) == 2 and True and True
+
+{'ClassificationOfTargetHand': 0.4074074074074074, 'ClassificationOfOtherHands': 0.9773441645915827}
+cm.numZeros(ranks) == 2 and True and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0.4074074074074074, 'ClassificationOfOtherHands': 0.9773441645915827}
+cm.numZeros(ranks) == 2 and True and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 2 and True and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 4 and cm.numZeros(suits) == 4 and not cm.separationOfZeros(suits)
+
+
+
+The Final Solution: 
+
+{'ClassificationOfTargetHand': 1.0, 'ClassificationOfOtherHands': 0.950769481977385}
+cm.numZeros(ranks) == 2 and True and True
+
+{'ClassificationOfTargetHand': 0.4074074074074074, 'ClassificationOfOtherHands': 0.9773441645915827}
+cm.numZeros(ranks) == 2 and True and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0.4074074074074074, 'ClassificationOfOtherHands': 0.9773441645915827}
+cm.numZeros(ranks) == 2 and True and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 2 and True and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 4 and cm.numZeros(suits) == 4 and not cm.separationOfZeros(suits)
+
+
+
+done
+End of rule generation for hand classification:  3
+
+
+Generating rules for hand classification:  4
+Generation  0 : 
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.8031063129590239}
+cm.numZeros(ranks) == 1 and not cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 1 and cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.5746277641770678}
+cm.numZeros(ranks) == 1 and True and True
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.9974314724886624}
+True and cm.numZeros(suits) == 4 and True
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.acePresent(ranks) and cm.numZeros(suits) == 4 and True
+
+
+
+Defining next generation
+Done defining next generation
+Generation  1 : 
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.7715214512180439}
+cm.numZeros(ranks) == 1 and True and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 2 and not cm.separationOfZeros(ranks) and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 4 and cm.numZeros(suits) == 4 and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.8031063129590239}
+cm.numZeros(ranks) == 1 and not cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 4 and not cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+
+
+Defining next generation
+Done defining next generation
+Generation  2 : 
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 4 and cm.separationOfZeros(ranks) and True
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 4 and True and True
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.acePresent(ranks) and cm.numZeros(suits) == 4 and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.9616727535417586}
+cm.numZeros(ranks) == 2 and True and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 4 and cm.numZeros(suits) == 4 and True
+
+
+
+Defining next generation
+Done defining next generation
+Generation  3 : 
+
+{'ClassificationOfTargetHand': 0.43010752688172044, 'ClassificationOfOtherHands': 0.46691014167034556}
+True and True and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0.43010752688172044, 'ClassificationOfOtherHands': 0.46691014167034556}
+True and True and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 1 and cm.numZeros(suits) == 4 and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0.9247311827956989, 'ClassificationOfOtherHands': 0.984026969538869}
+True and True and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 3 and True and cm.elemsAscDesc(ranks, isRank=True)
+
+
+
+Defining next generation
+Done defining next generation
+Generation  4 : 
+
+{'ClassificationOfTargetHand': 0.9247311827956989, 'ClassificationOfOtherHands': 0.984026969538869}
+True and True and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0.43010752688172044, 'ClassificationOfOtherHands': 0.46691014167034556}
+True and True and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0.43010752688172044, 'ClassificationOfOtherHands': 0.46691014167034556}
+True and True and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0.9247311827956989, 'ClassificationOfOtherHands': 0.984026969538869}
+True and True and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.5746277641770678}
+cm.numZeros(ranks) == 1 and not cm.separationOfZeros(ranks) and True
+
+
+
+The Final Solution: 
+
+{'ClassificationOfTargetHand': 0.9247311827956989, 'ClassificationOfOtherHands': 0.984026969538869}
+True and True and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0.43010752688172044, 'ClassificationOfOtherHands': 0.46691014167034556}
+True and True and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0.43010752688172044, 'ClassificationOfOtherHands': 0.46691014167034556}
+True and True and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0.9247311827956989, 'ClassificationOfOtherHands': 0.984026969538869}
+True and True and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.5746277641770678}
+cm.numZeros(ranks) == 1 and not cm.separationOfZeros(ranks) and True
+
+
+
+done
+End of rule generation for hand classification:  4
+
+
+Generating rules for hand classification:  5
+Generation  0 : 
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.9984372495592242}
+cm.numZeros(ranks) == 1 and True and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.8034140086552332}
+cm.numZeros(ranks) == 1 and True and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.9990783779451835}
+cm.numZeros(ranks) == 3 and cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.9777608591120371}
+cm.numZeros(ranks) == 2 and cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 1 and cm.separationOfZeros(ranks) and True
+
+
+
+Defining next generation
+Done defining next generation
+Generation  1 : 
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 4 and not cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.972992466741465}
+True and cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 4 and cm.separationOfZeros(ranks) and True
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.9994790831864081}
+cm.numZeros(ranks) == 3 and cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 1 and cm.numZeros(suits) == 4 and not cm.separationOfZeros(suits)
+
+
+
+Defining next generation
+Done defining next generation
+Generation  2 : 
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.acePresent(ranks) and not cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.7718785061708607}
+cm.numZeros(ranks) == 1 and True and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 4 and True and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 3 and cm.numZeros(suits) == 4 and True
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.acePresent(ranks) and not cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+
+
+Defining next generation
+Done defining next generation
+Generation  3 : 
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.8034140086552332}
+cm.numZeros(ranks) == 1 and True and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.acePresent(ranks) and cm.separationOfZeros(ranks) and True
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 4 and cm.separationOfZeros(ranks) and True
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.acePresent(ranks) and cm.numZeros(suits) == 4 and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.9997595768552653}
+cm.numZeros(ranks) == 3 and not cm.separationOfZeros(ranks) and True
+
+
+
+Defining next generation
+Done defining next generation
+Generation  4 : 
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.9994790831864081}
+cm.numZeros(ranks) == 3 and cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 3 and True and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 1.0, 'ClassificationOfOtherHands': 0.4953117486776727}
+True and not cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.acePresent(ranks) and cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 3 and cm.numZeros(suits) == 4 and cm.elemsAscDesc(ranks, isRank=True)
+
+
+
+The Final Solution: 
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.9994790831864081}
+cm.numZeros(ranks) == 3 and cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 3 and True and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 1.0, 'ClassificationOfOtherHands': 0.4953117486776727}
+True and not cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.acePresent(ranks) and cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 3 and cm.numZeros(suits) == 4 and cm.elemsAscDesc(ranks, isRank=True)
+
+
+
+done
+End of rule generation for hand classification:  5
+
+
+Generating rules for hand classification:  6
+Generation  0 : 
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 3 and cm.numZeros(suits) == 4 and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 4 and cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.9984383759109474}
+cm.numZeros(ranks) == 1 and not cm.separationOfZeros(ranks) and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0.3611111111111111, 'ClassificationOfOtherHands': 0.977776887963482}
+True and cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 4 and cm.numZeros(suits) == 4 and not cm.separationOfZeros(suits)
+
+
+
+Defining next generation
+Done defining next generation
+Generation  1 : 
+
+{'ClassificationOfTargetHand': 0.3611111111111111, 'ClassificationOfOtherHands': 0.977776887963482}
+True and cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 3 and cm.numZeros(suits) == 4 and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.9995995835669096}
+True and cm.numZeros(suits) == 4 and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 1.0, 'ClassificationOfOtherHands': 0.951709778169296}
+True and cm.separationOfZeros(ranks) and True
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.acePresent(ranks) and cm.numZeros(suits) == 4 and cm.elemsAscDesc(ranks, isRank=True)
+
+
+
+Defining next generation
+Done defining next generation
+Generation  2 : 
+
+{'ClassificationOfTargetHand': 1.0, 'ClassificationOfOtherHands': 0.951709778169296}
+True and cm.separationOfZeros(ranks) and True
+
+{'ClassificationOfTargetHand': 0.3611111111111111, 'ClassificationOfOtherHands': 0.977776887963482}
+True and cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0.3611111111111111, 'ClassificationOfOtherHands': 0.977776887963482}
+True and cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 1 and cm.separationOfZeros(ranks) and True
+
+{'ClassificationOfTargetHand': 0.3611111111111111, 'ClassificationOfOtherHands': 0.977776887963482}
+True and cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+
+
+Defining next generation
+Done defining next generation
+Generation  3 : 
+
+{'ClassificationOfTargetHand': 1.0, 'ClassificationOfOtherHands': 0.951709778169296}
+True and cm.separationOfZeros(ranks) and True
+
+{'ClassificationOfTargetHand': 0.3611111111111111, 'ClassificationOfOtherHands': 0.977776887963482}
+True and cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0.3611111111111111, 'ClassificationOfOtherHands': 0.977776887963482}
+True and cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 1 and cm.separationOfZeros(ranks) and True
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 2 and cm.numZeros(suits) == 4 and cm.separationOfZeros(suits)
+
+
+
+Defining next generation
+Done defining next generation
+Generation  4 : 
+
+{'ClassificationOfTargetHand': 1.0, 'ClassificationOfOtherHands': 0.951709778169296}
+True and cm.separationOfZeros(ranks) and True
+
+{'ClassificationOfTargetHand': 0.3611111111111111, 'ClassificationOfOtherHands': 0.977776887963482}
+True and cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0.3611111111111111, 'ClassificationOfOtherHands': 0.977776887963482}
+True and cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 1.0, 'ClassificationOfOtherHands': 0.951709778169296}
+True and cm.separationOfZeros(ranks) and True
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 4 and cm.separationOfZeros(ranks) and cm.elemsAscDesc(ranks, isRank=True)
+
+
+
+The Final Solution: 
+
+{'ClassificationOfTargetHand': 1.0, 'ClassificationOfOtherHands': 0.951709778169296}
+True and cm.separationOfZeros(ranks) and True
+
+{'ClassificationOfTargetHand': 0.3611111111111111, 'ClassificationOfOtherHands': 0.977776887963482}
+True and cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0.3611111111111111, 'ClassificationOfOtherHands': 0.977776887963482}
+True and cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 1.0, 'ClassificationOfOtherHands': 0.951709778169296}
+True and cm.separationOfZeros(ranks) and True
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 4 and cm.separationOfZeros(ranks) and cm.elemsAscDesc(ranks, isRank=True)
+
+
+
+done
+End of rule generation for hand classification:  6
+
+
+Generating rules for hand classification:  7
+Generation  0 : 
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 2 and cm.numZeros(suits) == 4 and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 2 and cm.numZeros(suits) == 4 and True
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.9739641657334827}
+cm.numZeros(ranks) == 2 and cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 1 and cm.numZeros(suits) == 4 and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 2 and True and cm.elemsAscDesc(ranks, isRank=True)
+
+
+
+Defining next generation
+Done defining next generation
+Generation  1 : 
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.acePresent(ranks) and cm.numZeros(suits) == 4 and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.979483282674772}
+cm.numZeros(ranks) == 2 and not cm.separationOfZeros(ranks) and True
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.7723164293713006}
+cm.numZeros(ranks) == 1 and not cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.5553111502159654}
+True and not cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 3 and True and cm.elemsAscDesc(ranks, isRank=True)
+
+
+
+Defining next generation
+Done defining next generation
+Generation  2 : 
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 1 and cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 3 and cm.numZeros(suits) == 4 and True
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 4 and cm.numZeros(suits) == 4 and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.8037913933770596}
+cm.numZeros(ranks) == 1 and True and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.acePresent(ranks) and cm.numZeros(suits) == 4 and True
+
+
+
+Defining next generation
+Done defining next generation
+Generation  3 : 
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.979483282674772}
+cm.numZeros(ranks) == 2 and not cm.separationOfZeros(ranks) and True
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.9618061110222365}
+cm.numZeros(ranks) == 2 and True and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.9878419452887538}
+cm.numZeros(ranks) == 2 and not cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 1 and cm.separationOfZeros(ranks) and True
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.5553111502159654}
+True and not cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+
+
+Defining next generation
+Done defining next generation
+Generation  4 : 
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.9974404095344744}
+True and cm.numZeros(suits) == 4 and True
+
+{'ClassificationOfTargetHand': 1.0, 'ClassificationOfOtherHands': 0.4674052151655735}
+True and True and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.5553111502159654}
+True and not cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.7723164293713006}
+cm.numZeros(ranks) == 1 and not cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.9730443129099344}
+True and cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+
+
+The Final Solution: 
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.9974404095344744}
+True and cm.numZeros(suits) == 4 and True
+
+{'ClassificationOfTargetHand': 1.0, 'ClassificationOfOtherHands': 0.4674052151655735}
+True and True and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.5553111502159654}
+True and not cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.7723164293713006}
+cm.numZeros(ranks) == 1 and not cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.9730443129099344}
+True and cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+
+
+done
+End of rule generation for hand classification:  7
+
+
+Generating rules for hand classification:  8
+Generation  0 : 
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 1 and cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.acePresent(ranks) and cm.numZeros(suits) == 4 and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.9778044391121775}
+cm.numZeros(ranks) == 2 and cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.9772845430913817}
+True and cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.9916416716656669}
+cm.numZeros(ranks) == 2 and not cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+
+
+Defining next generation
+Done defining next generation
+Generation  1 : 
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.9517696460707858}
+cm.numZeros(ranks) == 2 and cm.separationOfZeros(ranks) and True
+
+{'ClassificationOfTargetHand': 0.6, 'ClassificationOfOtherHands': 0.9807638472305539}
+True and True and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.9618076384723055}
+cm.numZeros(ranks) == 2 and True and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 4 and True and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.acePresent(ranks) and not cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+
+
+Defining next generation
+Done defining next generation
+Generation  2 : 
+
+{'ClassificationOfTargetHand': 0.6, 'ClassificationOfOtherHands': 0.9807638472305539}
+True and True and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 4 and True and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.5326134773045391}
+True and True and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0.6, 'ClassificationOfOtherHands': 0.9997200559888022}
+True and cm.numZeros(suits) == 4 and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.acePresent(ranks) and cm.separationOfZeros(ranks) and True
+
+
+
+Defining next generation
+Done defining next generation
+Generation  3 : 
+
+{'ClassificationOfTargetHand': 0.6, 'ClassificationOfOtherHands': 0.9997200559888022}
+True and cm.numZeros(suits) == 4 and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0.6, 'ClassificationOfOtherHands': 0.9807638472305539}
+True and True and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0.6, 'ClassificationOfOtherHands': 0.9807638472305539}
+True and True and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0.6, 'ClassificationOfOtherHands': 0.9807638472305539}
+True and not cm.separationOfZeros(ranks) and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0.6, 'ClassificationOfOtherHands': 0.9807638472305539}
+True and not cm.separationOfZeros(ranks) and cm.elemsAscDesc(ranks, isRank=True)
+
+
+
+Defining next generation
+Done defining next generation
+Generation  4 : 
+
+{'ClassificationOfTargetHand': 0.6, 'ClassificationOfOtherHands': 0.9997200559888022}
+True and cm.numZeros(suits) == 4 and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0.6, 'ClassificationOfOtherHands': 0.9807638472305539}
+True and True and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0.6, 'ClassificationOfOtherHands': 0.9807638472305539}
+True and True and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0.6, 'ClassificationOfOtherHands': 0.9807638472305539}
+True and not cm.separationOfZeros(ranks) and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 3 and not cm.separationOfZeros(ranks) and cm.elemsAscDesc(ranks, isRank=True)
+
+
+
+The Final Solution: 
+
+{'ClassificationOfTargetHand': 0.6, 'ClassificationOfOtherHands': 0.9997200559888022}
+True and cm.numZeros(suits) == 4 and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0.6, 'ClassificationOfOtherHands': 0.9807638472305539}
+True and True and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0.6, 'ClassificationOfOtherHands': 0.9807638472305539}
+True and True and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0.6, 'ClassificationOfOtherHands': 0.9807638472305539}
+True and not cm.separationOfZeros(ranks) and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 3 and not cm.separationOfZeros(ranks) and cm.elemsAscDesc(ranks, isRank=True)
+
+
+
+done
+End of rule generation for hand classification:  8
+
+
+Generating rules for hand classification:  9
+Generation  0 : 
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.9988402319536093}
+cm.numZeros(ranks) == 3 and True and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+True and cm.separationOfZeros(ranks) and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.9618076384723055}
+cm.numZeros(ranks) == 2 and True and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 3 and cm.numZeros(suits) == 4 and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.9772845430913817}
+True and cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+
+
+Defining next generation
+Done defining next generation
+Generation  1 : 
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 4 and cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.9730453909218156}
+True and cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 1.0, 'ClassificationOfOtherHands': 0.9976404719056189}
+True and cm.numZeros(suits) == 4 and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 4 and cm.numZeros(suits) == 4 and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 4 and cm.separationOfZeros(ranks) and not cm.separationOfZeros(suits)
+
+
+
+Defining next generation
+Done defining next generation
+Generation  2 : 
+
+{'ClassificationOfTargetHand': 1.0, 'ClassificationOfOtherHands': 0.9976404719056189}
+True and cm.numZeros(suits) == 4 and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 4 and cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.9772845430913817}
+True and cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 1.0, 'ClassificationOfOtherHands': 0.9976404719056189}
+True and cm.numZeros(suits) == 4 and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 4 and True and not cm.separationOfZeros(suits)
+
+
+
+Defining next generation
+Done defining next generation
+Generation  3 : 
+
+{'ClassificationOfTargetHand': 1.0, 'ClassificationOfOtherHands': 0.9976404719056189}
+True and cm.numZeros(suits) == 4 and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 4 and cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.9772845430913817}
+True and cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 1 and cm.numZeros(suits) == 4 and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 3 and cm.numZeros(suits) == 4 and cm.elemsAscDesc(ranks, isRank=True)
+
+
+
+Defining next generation
+Done defining next generation
+Generation  4 : 
+
+{'ClassificationOfTargetHand': 1.0, 'ClassificationOfOtherHands': 0.9976404719056189}
+True and cm.numZeros(suits) == 4 and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 4 and cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.9772845430913817}
+True and cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 1.0, 'ClassificationOfOtherHands': 0.9998000399920016}
+True and cm.numZeros(suits) == 4 and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 4 and cm.numZeros(suits) == 4 and cm.separationOfZeros(suits)
+
+
+
+The Final Solution: 
+
+{'ClassificationOfTargetHand': 1.0, 'ClassificationOfOtherHands': 0.9976404719056189}
+True and cm.numZeros(suits) == 4 and not cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 4 and cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 0.9772845430913817}
+True and cm.separationOfZeros(ranks) and cm.separationOfZeros(suits)
+
+{'ClassificationOfTargetHand': 1.0, 'ClassificationOfOtherHands': 0.9998000399920016}
+True and cm.numZeros(suits) == 4 and cm.elemsAscDesc(ranks, isRank=True)
+
+{'ClassificationOfTargetHand': 0, 'ClassificationOfOtherHands': 1.0}
+cm.numZeros(ranks) == 4 and cm.numZeros(suits) == 4 and cm.separationOfZeros(suits)
+
+
+
+done
+End of rule generation for hand classification:  9
+
+
+The thread 'MainThread' (0x1) has exited with code 0 (0x0).
+The program 'python.exe' has exited with code 0 (0x0).
